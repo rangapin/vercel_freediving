@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -13,7 +14,8 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Freediving School</a>
+          Welcome to{" "}
+          <a href="https://www.freediving-nicaragua.com">Freediving School</a>
         </h1>
 
         <p className={styles.description}>
@@ -22,34 +24,34 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <link href="/disciplines/cwt" className={styles.card}>
-            <h2>Constant Weight &rarr;</h2>
-          </link>
+          <a href="/disciplines/cwt" className={styles.card}>
+            Constant Weight &rarr;
+          </a>
 
-          <link href="/disciplines/static" className={styles.card}>
-            <h2>Static &rarr;</h2>
-          </link>
+          <a href="/disciplines/static" className={styles.card}>
+            Static &rarr;
+          </a>
 
-          <link
+          <a
             href="/disciplines/dynamic"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.card}
-          ></link>
+          >
+            Dynamic &rarr;
+          </a>
 
-          <h2>Dynamic &rarr;</h2>
+          <a href="/disciplines/eq" className={styles.card}>
+            Equalization &rarr;
+          </a>
 
-          <link href="/disciplines/eq" className={styles.card}>
-            <h2>Equalization &rarr;</h2>
-          </link>
+          <a href="/disciplines/safety" className={styles.card}>
+            Safety &rarr;
+          </a>
 
-          <link href="/disciplines/safety" className={styles.card}>
-            <h2>Safety &rarr;</h2>
-          </link>
-
-          <link href="/disciplines/general" className={styles.card}>
-            <h2>General &rarr;</h2>
-          </link>
+          <a href="/disciplines/general" className={styles.card}>
+            General &rarr;
+          </a>
         </div>
       </main>
 
