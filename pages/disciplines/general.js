@@ -35,7 +35,7 @@ export default function fim() {
           </div>
           <div class="skill">
 
-            <h2>Breathe–Up</h2>
+            <h2>Breathe Up</h2>
 
             <ul>
               <li>Start with relaxed belly breathing for about 1:40 to 1:50</li>

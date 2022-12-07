@@ -141,7 +141,7 @@ export default function fim() {
 
             <ul>
               <li>
-                Place the hands underneath the distressed freediver's head,
+                Place the hands underneath the distressed freedivers head,
                 forming a firm support
               </li>
               <li>
@@ -174,7 +174,7 @@ export default function fim() {
                 firm support to carry the distressed freediver
               </li>
               <li>
-                Move to the distressed freediver’s side, looking in the
+                Move to the distressed freedivers side, looking in the
                 direction of the tow
               </li>
               <li>
