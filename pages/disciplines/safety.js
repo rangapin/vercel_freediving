@@ -14,7 +14,7 @@ export default function fim() {
             <h2>Buddy System Procedure</h2>
 
             <ul>
-              <li>Follow the "one up – one down" rule</li>
+              <li>Follow the one up – one down rule</li>
               <li>
                 The buddy holds the rope to feel when the freediver pulls or
                 starts their turn
@@ -32,7 +32,7 @@ export default function fim() {
               </li>
               <li>
                 After they complete their recovery breaths, ask for the final
-                "OK" sign
+                OK sign
               </li>
             </ul>
           </div>

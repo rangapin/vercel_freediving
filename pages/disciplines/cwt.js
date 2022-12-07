@@ -66,7 +66,7 @@ export default function cwt() {
           </li>
           <li>Turn by grabbing the rope</li>
           <li>Put the legs/fins together to prevent them from moving</li>
-          <li>Do full "key hole" arm strokes all the way to the surface</li>
+          <li>Do full key hole arm strokes all the way to the surface</li>
         </ul>
 
         <div class="video">

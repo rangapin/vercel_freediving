@@ -85,7 +85,7 @@ export default function fim() {
               </li>
               <li>
                 Fill the mouth and nasal cavity with as much air as possible by
-                vocalizing a "uuuuugh" sound to move air from the lungs to the
+                vocalizing a M sound to move air from the lungs to the
                 mouth
               </li>
               <li>Keep the epiglottis closed for the rest of the dive</li>
