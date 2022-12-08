@@ -10,7 +10,7 @@ export default function fim() {
         </h1>
 
         <div class="skills">
-          <div class="skill">
+          <div class={styles.skill}>
             <h2>Equalization</h2>
 
             <ul>
@@ -24,10 +24,9 @@ export default function fim() {
               </li>
             </ul>
           </div>
-          <div class="video">
+          <div class={styles.video}>
             <iframe
-              width="1280"
-              height="720"
+              width="854" height="480"
               src="https://www.youtube.com/embed/V302fsi5qis"
               title="Equalization | Freediving Skills"
               frameborder="0"
@@ -35,7 +34,7 @@ export default function fim() {
               allowfullscreen
             ></iframe>
           </div>
-          <div class="skills">
+          <div class={styles.skill}>
             <h2>Frenzel Technique</h2>
 
             <ul>
@@ -55,19 +54,9 @@ export default function fim() {
               <li>Repeat without pausing</li>
             </ul>
           </div>
-          <div class="video">
+          <div class={styles.video}>
             <iframe
-              width="1280"
-              height="720"
-              src="https://www.youtube.com/embed/V302fsi5qis"
-              title="Equalization | Freediving Skills"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-            <iframe
-              width="1280"
-              height="720"
+             width="854" height="480"
               src="https://www.youtube.com/embed/zzXlJdICb4M"
               title="Frenzel equalization | Freediving Skills"
               frameborder="0"
@@ -75,7 +64,7 @@ export default function fim() {
               allowfullscreen
             ></iframe>
           </div>
-          <div class="skills">
+          <div class={styles.skill}>
             <h2>Mouth-fill Technique</h2>
 
             <ul>
@@ -114,10 +103,9 @@ export default function fim() {
               </li>
             </ul>
           </div>
-          <div class="video">
+          <div class={styles.video}>
             <iframe
-              width="1280"
-              height="720"
+              width="854" height="480"
               src="https://www.youtube.com/embed/qg5-0P3Vam8"
               title="Mouth fill equalization | Freediving Skills"
               frameborder="0"
@@ -126,16 +114,13 @@ export default function fim() {
             ></iframe>
           </div>
         </div>
+        <h1 className={styles.card}>
+        <a href="../">Go Back</a>
+        </h1>
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
           @Copyright 2023 Richard Angapin | All Right Reserved
-        </a>
       </footer>
     </div>
   );

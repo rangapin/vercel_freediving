@@ -13,56 +13,43 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Freediving School</a>
+      <div className={styles.main}>
+      <h1 className={styles.title}>
+          Welcome to <a href="https://freediving-nicaragua.com">Freediving School</a>
         </h1>
 
         <p className={styles.description}>
           A comprehensive course on
           <code className={styles.code}>essential Freediving Skills.</code>
         </p>
-
         <div className={styles.grid}>
-          <link href="/disciplines/cwt" className={styles.card}/>
-            <h2>Constant Weight &rarr;</h2>
-
-          <link href="/disciplines/static" className={styles.card}/>
-            <h2>Static &rarr;</h2>                    
-
-
-
-          <link
-            href="/disciplines/dynamic"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.card}/>                    
-
-          <h2>Dynamic &rarr;</h2>
-
-          <link href="/disciplines/eq" className={styles.card}/>
-            <h2>Equalization &rarr;</h2>                   
-
-          <link href="/disciplines/safety" className={styles.card}/>
-            <h2>Safety &rarr;</h2>                    
-
-          <link href="/disciplines/general" className={styles.card} />
-            <h2>General &rarr;</h2>                    
-
+        <div className={styles.card}>
+         <a href="/disciplines/cwt">CWT &rarr;</a>
         </div>
-      </main>
 
+        <div className={styles.card}>
+         <a href="/disciplines/static">STA  &rarr;</a>
+        </div>                
+
+        <div className={styles.card}>
+         <a href="/disciplines/dynamic">DYN  &rarr;</a>
+        </div>
+
+        <div className={styles.card}>
+         <a href="/disciplines/eq">EQ  &rarr;</a>
+        </div>    
+
+        <div className={styles.card}>
+         <a href="/disciplines/safety">SAFETY  &rarr;</a>
+        </div>      
+
+        <div className={styles.card}>
+         <a href="/disciplines/general">GENERAL &rarr;</a>
+        </div>                  
+        </div>
+      </div>
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          @Copyright 2023 Richard Angapin | All Right Reserved
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
+          @Copyright 2023 Richard Angapin | All Right Reserved  
       </footer>
     </div>
   );

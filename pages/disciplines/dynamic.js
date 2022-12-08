@@ -9,7 +9,7 @@ export default function fim() {
           <a href="https://freediving-nicaragua.com">Freediving School</a>
         </h1>
         <div class="skills">
-          <div class="skill">
+          <div class={styles.skill}>
             <h2>Start and Setting Neutral Buoyancy</h2>
             <ul>
               <li>Stand at the starting point and take a full breath</li>
@@ -23,10 +23,9 @@ export default function fim() {
               <li>Keep the body streamlined, and do not look forward</li>
             </ul>
           </div>
-        <div class="video">
+        <div class={styles.video}>
           <iframe
-            width="1280"
-            height="720"
+            width="854" height="480"
             src="https://www.youtube.com/embed/0RdJx5hUqYg"
             title="Dynamic start and setting neutral buoyancy | Freediving Skills"
             frameborder="0"
@@ -34,7 +33,7 @@ export default function fim() {
             allowfullscreen
           ></iframe>
         </div>
-        <div class="skill">
+        <div class={styles.skill}>
           <h2>Body Position/Streamlining </h2>
           <ul>
             <li>Arms should be beside the body, relaxed and not moving</li>
@@ -46,10 +45,10 @@ export default function fim() {
             </li>
           </ul>
         </div>
-        <div class="video">
-        <iframe width="1280" height="720" src="https://www.youtube.com/embed/QIZPkvDZy8c" title="Dynamic body position and streamlining | Freediving Skills" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class={styles.video}>
+        <iframe width="854" height="480" src="https://www.youtube.com/embed/QIZPkvDZy8c" title="Dynamic body position and streamlining | Freediving Skills" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div class="skill">
+        <div class={styles.skill}>
           <h2>Dynamic Dive</h2>
           <ul>
             <li>Start</li>
@@ -59,10 +58,10 @@ export default function fim() {
             <li>Surfacing technique</li>
           </ul>
         </div>
-        <div class="video">
-        <iframe width="1280" height="720" src="https://www.youtube.com/embed/jowez07Z8pk" title="Dynamic apnea attempt | Freediving Skills" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class={styles.video}>
+        <iframe width="854" height="480" src="https://www.youtube.com/embed/jowez07Z8pk" title="Dynamic apnea attempt | Freediving Skills" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div class="skill">
+        <div class={styles.skill}>
           <h2>Arm Stroke Only</h2>
           <ul>
             <li>
@@ -77,10 +76,10 @@ export default function fim() {
             </li>
           </ul>
         </div>
-        <div class="video">
-        <iframe width="1280" height="720" src="https://www.youtube.com/embed/SMM3A4G_eUA" title="Arms only dynamic | Freediving Skills" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class={styles.video}>
+        <iframe width="854" height="480" src="https://www.youtube.com/embed/SMM3A4G_eUA" title="Arms only dynamic | Freediving Skills" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div class="skill">
+        <div class={styles.skill}>
 
         <h2>Turns (no wall)</h2>
         <ul>
@@ -90,10 +89,10 @@ export default function fim() {
           <li>Use momentum and the free arm to rotate the body 180 degrees</li>
         </ul>
         </div>
-        <div class="video">
-        <iframe width="1280" height="720" src="https://www.youtube.com/embed/JOWrAnLBjug" title="Dynamic turns | Freediving Skills" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class={styles.video}>
+        <iframe width="854" height="480" src="https://www.youtube.com/embed/JOWrAnLBjug" title="Dynamic turns | Freediving Skills" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div class="skill">
+        <div class={styles.skill}>
           <h2>Surfacing from Dynamic and OW</h2>
           <ul>
             <li>
@@ -106,20 +105,17 @@ export default function fim() {
             <li>Give the OK sign to a buddy or instructor</li>
           </ul>
         </div>
-        <div class="video">
-        <iframe width="1280" height="720" src="https://www.youtube.com/embed/nBGlMCACq5A" title="Surfacing | Freediving Skills" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class={styles.video}>
+        <iframe width="854" height="480" src="https://www.youtube.com/embed/nBGlMCACq5A" title="Surfacing | Freediving Skills" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         </div>
+        <h1 className={styles.card}>
+        <a href="../">Go Back</a>
+        </h1>
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
           @Copyright 2023 Richard Angapin | All Right Reserved
-        </a>
       </footer>
     </div>
   );

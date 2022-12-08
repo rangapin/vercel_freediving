@@ -32,20 +32,16 @@ export default function fim() {
         </ul>
         </div>
 
-        <div class="video">
-        <iframe width="1280" height="720" src="https://www.youtube.com/embed/HTJkrKLPVlk" title="Static Apnea Attempt | Freediving Skills" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class={styles.video}>
+        <iframe width="854" height="480" src="https://www.youtube.com/embed/HTJkrKLPVlk" title="Static Apnea Attempt | Freediving Skills" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-
+        <h1 className={styles.card}>
+        <a href="../">Go Back</a>
+        </h1>
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
           @Copyright 2023 Richard Angapin | All Right Reserved
-        </a>
       </footer>
     </div>
   );

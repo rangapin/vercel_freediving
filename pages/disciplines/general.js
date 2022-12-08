@@ -11,7 +11,7 @@ export default function fim() {
 
         <div class="skills">
           
-          <div class="skill">
+          <div class={styles.skill}>
 
             <h2>Surface Buoyancy</h2>
 
@@ -30,10 +30,10 @@ export default function fim() {
               <li>Repeat the exercise and make any necessary adjustments</li>
             </ul>
           </div>
-          <div class="video">
-          <iframe width="1280" height="720" src="https://www.youtube.com/embed/tXbhj-ZnJtg" title="Surface buoyancy | Freediving Skills" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class={styles.video}>
+          <iframe width="854" height="480" src="https://www.youtube.com/embed/tXbhj-ZnJtg" title="Surface buoyancy | Freediving Skills" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-          <div class="skill">
+          <div class={styles.skill}>
 
             <h2>Breathe Up</h2>
 
@@ -53,10 +53,10 @@ export default function fim() {
               </li>
             </ul>
           </div>
-          <div class="video">
-          <iframe width="1280" height="720" src="https://www.youtube.com/embed/wObRP4ClrD4" title="Breathe-up | Freediving Skills" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class={styles.video}>
+          <iframe width="854" height="480" src="https://www.youtube.com/embed/wObRP4ClrD4" title="Breathe-up | Freediving Skills" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-          <div class="skill">
+          <div class={styles.skill}>
             <h2>Warm-Ups</h2>
 
             <ul>
@@ -71,11 +71,11 @@ export default function fim() {
               <li>Warm-up should not cause an increase in lactic acid</li>
             </ul>
           </div>
-          <div class="video">
-          <iframe width="1280" height="720" src="https://www.youtube.com/embed/rGhtM5YYnDg" title="Constant weight warm up | Freediving Skills" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class={styles.video}>
+          <iframe width="854" height="480" src="https://www.youtube.com/embed/rGhtM5YYnDg" title="Constant weight warm up | Freediving Skills" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
 
-          <div class="skill">
+          <div class={styles.skill}>
             <h2>Neutral Buoyancy</h2>
 
             <ul>
@@ -104,10 +104,10 @@ export default function fim() {
               </li>
             </ul>
           </div>
-          <div class="video">
-          <iframe width="1280" height="720" src="https://www.youtube.com/embed/4wZA0perx9g" title="Deepwater neutral buoyancy | Freediving Skills" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class={styles.video}>
+          <iframe width="854" height="480" src="https://www.youtube.com/embed/4wZA0perx9g" title="Deepwater neutral buoyancy | Freediving Skills" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
-          <div class="skill">
+          <div class={styles.skill}>
             <h2>Finning Techniques</h2>
 
             <ul>
@@ -124,10 +124,10 @@ export default function fim() {
               <li>Attempt to set a pace of 1 or 2 kicks per second</li>
             </ul>
           </div>
-          <div class="video">
-          <iframe width="1280" height="720" src="https://www.youtube.com/embed/QkqtDdkQWgU" title="Bi-fin kick | Freediving Skills" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class={styles.video}>
+          <iframe width="854" height="480" src="https://www.youtube.com/embed/QkqtDdkQWgU" title="Bi-fin kick | Freediving Skills" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-          <div class="skill">
+          <div class={styles.skill}>
             <h2>Recovery Breathing</h2>
 
             <ul>
@@ -139,11 +139,11 @@ export default function fim() {
             </ul>
           </div>
 
-          <div class="video">
-          <iframe width="1280" height="720" src="https://www.youtube.com/embed/SOqWExl0Wg0" title="Recovery Breathing | Freediving Skills" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class={styles.video}>
+          <iframe width="854" height="480" src="https://www.youtube.com/embed/SOqWExl0Wg0" title="Recovery Breathing | Freediving Skills" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
 
-          <div class="skill">
+          <div class={styles.skill}>
             <h2>Functional Residual Capacity (FRC) Diving</h2>
 
             <ul>
@@ -174,20 +174,17 @@ export default function fim() {
             </ul>
           </div>
 
-          <div class="video">
-          <iframe width="1280" height="720" src="https://www.youtube.com/embed/nAchBMRgZSM" title="Functional residual capacity dive | Freediving Skills" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class={styles.video}>
+          <iframe width="854" height="480" src="https://www.youtube.com/embed/nAchBMRgZSM" title="Functional residual capacity dive | Freediving Skills" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
+        <h1 className={styles.card}>
+        <a href="../">Go Back</a>
+        </h1>
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
           @Copyright 2023 Richard Angapin | All Right Reserved
-        </a>
       </footer>
     </div>
   );

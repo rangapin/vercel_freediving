@@ -10,7 +10,7 @@ export default function fim() {
         </h1>
 
         <div class="skills">
-          <div class="skill">
+          <div class={styles.skill}>
             <h2>Buddy System Procedure</h2>
 
             <ul>
@@ -36,10 +36,9 @@ export default function fim() {
               </li>
             </ul>
           </div>
-          <div class="video">
+          <div class={styles.video}>
             <iframe
-              width="1280"
-              height="720"
+              width="854" height="480"
               src="https://www.youtube.com/embed/FRL4C-IMGH4"
               title="Constant weight buddy system | Freediving Skills"
               frameborder="0"
@@ -47,7 +46,7 @@ export default function fim() {
               allowfullscreen
             ></iframe>
           </div>
-          <div class="skill">
+          <div class={styles.skill}>
             <h2>Loss of Motor Control Rescue</h2>
 
             <ul>
@@ -70,10 +69,9 @@ export default function fim() {
               </li>
             </ul>
           </div>
-          <div class="video">
+          <div class={styles.video}>
             <iframe
-              width="1280"
-              height="720"
+              width="854" height="480"
               src="https://www.youtube.com/embed/MmNoIikian4"
               title="Loss of motor control rescue | Freediving Skills"
               frameborder="0"
@@ -81,7 +79,7 @@ export default function fim() {
               allowfullscreen
             ></iframe>
           </div>
-          <div class="skill">
+          <div class={styles.skill}>
             <h2>Blackout Rescue-Response-Revive</h2>
 
             <ul>
@@ -125,10 +123,9 @@ export default function fim() {
               <li>If there is no response, begin rescue breaths</li>
             </ul>
           </div>
-          <div class="video">
+          <div class={styles.video}>
             <iframe
-              width="1280"
-              height="720"
+              width="854" height="480"
               src="https://www.youtube.com/embed/VTuD39fZSlI"
               title="Surface blackout rescue | Freediving Skills"
               frameborder="0"
@@ -136,7 +133,7 @@ export default function fim() {
               allowfullscreen
             ></iframe>
           </div>
-          <div class="skill">
+          <div class={styles.skill}>
             <h2>Towing From Behind</h2>
 
             <ul>
@@ -154,10 +151,9 @@ export default function fim() {
               <li>If necessary, give rescue breaths at 5-second intervals</li>
             </ul>
           </div>
-          <div class="video">
+          <div class={styles.video}>
             <iframe
-              width="1280"
-              height="720"
+              width="854" height="480"
               src="https://www.youtube.com/embed/FONnqB4kmag"
               title="Towing from behind | Freediving Skills"
               frameborder="0"
@@ -165,7 +161,7 @@ export default function fim() {
               allowfullscreen
             ></iframe>
           </div>
-          <div class="skill">
+          <div class={styles.skill}>
             <h2>Towing From Side</h2>
 
             <ul>
@@ -189,10 +185,9 @@ export default function fim() {
               <li>If necessary, give rescue breaths at 5-second intervals</li>
             </ul>
           </div>
-          <div class="video">
+          <div class={styles.video}>
             <iframe
-              width="1280"
-              height="720"
+              width="854" height="480"
               src="https://www.youtube.com/embed/D5Ya3QhdTIQ"
               title="Towing from side | Freediving"
               frameborder="0"
@@ -200,7 +195,7 @@ export default function fim() {
               allowfullscreen
             ></iframe>
           </div>
-          <div class="skill">
+          <div class={styles.skill}>
             <h2>Cramp Removal</h2>
 
             <ul>
@@ -220,10 +215,9 @@ export default function fim() {
             </ul>
           </div>
         </div>
-        <div class="video">
+        <div class={styles.video}>
           <iframe
-            width="1280"
-            height="720"
+            width="854" height="480"
             src="https://www.youtube.com/embed/-PgzaAnqHvw"
             title="Cramp Removal | Freediving Skills"
             frameborder="0"
@@ -231,16 +225,13 @@ export default function fim() {
             allowfullscreen
           ></iframe>
         </div>
+        <h1 className={styles.card}>
+        <a href="../">Go Back</a>
+        </h1>
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
           @Copyright 2023 Richard Angapin | All Right Reserved
-        </a>
       </footer>
     </div>
   );
