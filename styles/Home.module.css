@@ -6,10 +6,6 @@
   min-height: 100vh;
   padding: 4rem 0;
   font-size: 20px;
-  line-height: 1.5;
-  flex-wrap: nowrap;
-  align-content: center;
-  justify-content: flex-start;
 }
 
 .skill h2 {
@@ -44,7 +40,7 @@
 }
 
 .title {
-  margin: 0;
+  margin: 24px;
   line-height: 1.15;
   font-size: 4rem;
 }
@@ -52,6 +48,7 @@
 .title,
 .description {
   text-align: center;
+  width: auto;
 }
 
 .description {
@@ -137,6 +134,9 @@
 .video {
   display: flex;
   margin-top: 12px;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 768px) {
@@ -147,7 +147,8 @@
   .title {
     text-align: center;
     font-size: larger;
-    font-weight: 50px;  
+    width: 500px;
+    padding: 10px;
 }
 
   .video {
@@ -161,5 +162,7 @@
     font-size: medium;
     flex-direction: colum;
     flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
 }
 }

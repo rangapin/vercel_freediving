@@ -23,6 +23,15 @@ export default function Home() {
           <code className={styles.code}>essential Freediving Skills.</code>
         </p>
         <div className={styles.grid}>
+
+        <div className={styles.card}>
+         <a href="/disciplines/general">GENERAL &rarr;</a>
+        </div>  
+
+        <div className={styles.card}>
+         <a href="/disciplines/safety">SAFETY  &rarr;</a>
+        </div>  
+
         <div className={styles.card}>
          <a href="/disciplines/cwt">CWT &rarr;</a>
         </div>
@@ -38,14 +47,7 @@ export default function Home() {
         <div className={styles.card}>
          <a href="/disciplines/eq">EQ  &rarr;</a>
         </div>    
-
-        <div className={styles.card}>
-         <a href="/disciplines/safety">SAFETY  &rarr;</a>
-        </div>      
-
-        <div className={styles.card}>
-         <a href="/disciplines/general">GENERAL &rarr;</a>
-        </div>                  
+                 
         </div>
       </div>
       <footer className={styles.footer}>
